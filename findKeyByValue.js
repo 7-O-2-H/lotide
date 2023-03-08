@@ -3,13 +3,13 @@ const findKeyByValue = function(obj, item) {
   for (const items in obj) {
     if (obj[items] === item) {
       group = items;
-    } 
+    }
   }
   return group;
-}
+};
 
-const bestTVShowsByGenre = { 
-  sci_fi: "The Expanse",
+const bestTVShowsByGenre = {
+  sciFi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"
 };
