@@ -32,14 +32,14 @@ const eqArrays = function(arrayOne, arrayTwo) {
   return true;
 };
 
-const shirtObject = { color: "red", size: "medium" };
-const anotherShirtObject = { size: "medium", color: "red" };
-console.log(eqObjects(shirtObject , anotherShirtObject));
+// const shirtObject = { color: "red", size: "medium" };
+// const anotherShirtObject = { size: "medium", color: "red" };
+// console.log(eqObjects(shirtObject , anotherShirtObject));
 
-const sportsEquipment = { balls: "soccer", helmets: "football"};
-const equipment2 = {helmets: ["football", "baseball"], balls: ["soccer", "basketball"]};
-console.log(eqObjects(sportsEquipment , equipment2));
-const equipment3 = {balls: "soccer", raquets: "tennis", helmets: "football"};
-console.log(eqObjects(sportsEquipment, equipment3));
-
-
+// const sportsEquipment = { balls: "soccer", helmets: "football"};
+// const equipment2 = {helmets: ["football", "baseball"], balls: ["soccer", "basketball"]};
+// console.log(eqObjects(sportsEquipment , equipment2));
+// const equipment3 = {balls: "soccer", raquets: "tennis", helmets: "football"};
+// console.log(eqObjects(sportsEquipment, equipment3));
+module.exports = eqArrays;
+module.exports = eqObjects;

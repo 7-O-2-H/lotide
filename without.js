@@ -16,4 +16,5 @@ const without = function(source, itemsToRemove) {
   }
   return withoutArray;
 };
-console.log(without([1,2,'5',3,'4'], ['4',2]));
+// console.log(without([1,2,'5',3,'4'], ['4',2]));
+module.exports = without;

@@ -8,9 +8,11 @@ const findKeyByValue = function(obj, item) {
   return group;
 };
 
-const bestTVShowsByGenre = {
-  sciFi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
-console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));
+// const bestTVShowsByGenre = {
+//   sciFi: "The Expanse",
+//   comedy: "Brooklyn Nine-Nine",
+//   drama:  "The Wire"
+// };
+// console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));
+
+module.exports = findKeyByValue;
