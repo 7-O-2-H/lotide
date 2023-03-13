@@ -48,4 +48,9 @@ const assertObjectsEqual = function(actual, expected) {
   console.log(output);
 };
 
-assertObjectsEqual(person1, person2);
+//assertObjectsEqual(person1, person2);
+
+module.exports = assertObjectsEqual;
+module.exports = eqArrays;
+module.exports = eqObjects;
+
