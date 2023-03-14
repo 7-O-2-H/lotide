@@ -16,18 +16,18 @@ const countOnly = function(allItems, itemsToCount) {
   return result;
 };
 
-module.exports = countOnly;
-// const firstNames = [
-//   "Karl",
-//   "Salima",
-//   "Agouhanna",
-//   "Fang",
-//   "Kavith",
-//   "Jason",
-//   "Salima",
-//   "Fang",
-//   "Joe"
-// ];
+// module.exports = countOnly;
+//  const firstNames = [
+//    "Karl",
+//    "Salima",
+//    "Agouhanna",
+//    "Fang",
+//    "Kavith",
+//    "Jason",
+//    "Salima",
+//    "Fang",
+//    "Joe"
+//  ];
 
 // console.log(countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false }));
 // assertEqual to test countOnly
